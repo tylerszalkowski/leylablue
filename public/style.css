@@ -1,0 +1,27 @@
+body {
+    
+    font-family: acme-gothic, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+#main {
+    background-image: url('/bg.jpg');
+    background-color: black;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+} 
+
+
+@media screen and (max-width: 915px) {
+    #main {
+        background-image: url('/mobilebg.png');
+        background-color: black;
+        background-size: cover;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+    } 
+}
